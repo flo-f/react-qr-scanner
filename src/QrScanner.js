@@ -22,7 +22,7 @@ export default class QrScanner extends Component {
   }
   render() {
     return (
-      <div style={{ width: '30vw'}}>
+      <div className='qr-scanner-container'>
         <p>
           <small>Last Result:</small><br />
           {this.state.result}

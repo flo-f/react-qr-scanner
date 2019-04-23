@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <QrScanner style={{ width: '100%' }}/>
+        <h1>QR Demo</h1>
+        <QrScanner />
       </header>
     </div>
   );
